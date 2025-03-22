@@ -22,18 +22,20 @@ interface Professor {
 const professors: Professor[] = [
   {
     id: 1,
-    name: "Dr. Komla SANDA",
+    name: "Prof. Kondo Hloindo ADJALAH",
     title: "Directeur de l'EPL",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop",
-    specialization: "Génie Informatique",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQFoQnyekBlwfQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516336082293?e=1747872000&v=beta&t=uz-XAQCquulRvrdHWuQZYO1YqF-N3yhMS3BSTxv3myw",
+    specialization: "Génie Électrique",
     expertise: [
       "Intelligence Artificielle",
       "Machine Learning",
       "Big Data Analytics"
     ],
     education: [
-      "Doctorat en Informatique - Université de Toulouse",
-      "Master en IA - École Polytechnique de Paris"
+      " Université de Technologie de Compiègne, France: Directeur de recherche Habilitation, Ingénierie des Systèmes, Sûreté de Fonctionnement et Sécurité · (2000 - 2003)",
+      " Institut National Polytechnique de Lorraine, Nancy, France: Docteur en Philosophie (Ph.D.), Génie Electrique et Génie du Contrôle · (1989 - 1993)",
+      " Université de Nancy 1, France: Master of Science (MSc), Génie électrique et automatique · (1988 - 1989)",
+      " Université de Nancy 1, France: Licence en sciences (BSc), Automatique, Electronique & Génie Electrique · (1987 - 1988)"
     ],
     contact: {
       email: "k.sanda@epl.tg",

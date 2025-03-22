@@ -16,22 +16,30 @@ interface Video {
 const videos: Video[] = [
   {
     id: 1,
-    title: "L'expérience EPL - Témoignages d'étudiants",
-    description: "Découvrez le parcours de nos étudiants à travers leurs témoignages.",
-    url: "https://www.youtube.com/watch?v=example1",
-    thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=600&fit=crop",
+    title: "Crunch Time 2025",
+    description: "Une journée marquée non seulement par l'innovation, l’esprit de collaboration et la passion des participants, mais aussi par un mariage entre L’Université de Lomé à travers l’Ecole Polytechnique de Lomé et trois institutions à savoir LNBTP, SMART2D, et WEST LAB.💡",
+    url: "https://youtu.be/oCeVcRM1u-k",
+    thumbnail: "https://media.licdn.com/dms/image/v2/D4E22AQFsnJ6Af-no-A/feedshare-shrink_2048_1536/B4EZVdX8KfGYAo-/0/1741028315649?e=1745452800&v=beta&t=8djLwK4zFVWx7ggXC0bNsG9GEVmxvMLRcgKw0pHeZoc",
     duration: "5:30",
-    category: 'testimonial'
+    category: 'event'
   },
   {
     id: 2,
-    title: "Introduction au Génie Logiciel",
-    description: "Présentation des fondamentaux du génie logiciel par Dr. SANDA.",
-    url: "https://www.youtube.com/watch?v=example2",
-    thumbnail: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=600&fit=crop",
-    duration: "15:45",
-    category: 'course'
-  }
+    title: "Partenariat Yas TOGO & Université de Lomé",
+    description: " Yas Togo renforce l'employabilité des jeunes et leur permet de mieux se préparer aux défis du monde professionnel.",
+    url: "https://youtu.be/REJrxw5aAD4",
+    thumbnail: "https://media.licdn.com/dms/image/v2/D4E22AQGw1AoWujvmTw/feedshare-shrink_2048_1536/B4EZVsqrmNH0Ao-/0/1741284945303?e=1745452800&v=beta&t=QrvzcyLZWScFPMOXLkIhniZm2JQj3jel3x_93aC69co",
+    duration: "2:13",
+    category: 'event'
+  },
+ { id: 1,
+  title: "Yas Togo à la 3e édition de « Innovation Crunch Time » à l’Université de Lomé !",
+  description: "Yas Togo, engagé pour l’employabilité des jeunes, a animé une conférence inspirante le 3 mars dernier à l’Auditorium de l’Institut Confucius au profit des étudiants de l’E.P.L.",
+  url: "https://youtu.be/oCeVcRM1u-k",
+  thumbnail: "https://media.licdn.com/dms/image/v2/D4E22AQGF9ohVovyhjw/feedshare-shrink_2048_1536/B4EZWOvFYVGgAo-/0/1741856465177?e=1745452800&v=beta&t=UES9mH7pGNEqd_GrJPQUu6kDqd3mmkpk9JEZ13wAX80",
+  duration: "5:30",
+  category: 'event'
+ }
 ];
 
 export const VideoSection = () => {

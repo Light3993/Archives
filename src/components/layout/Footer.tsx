@@ -3,14 +3,19 @@ import { Facebook, Linkedin, Twitter } from 'lucide-react';
 
 const staff = [
   {
-    name: "Dr. Komla SANDA",
-    role: "Directeur",
+    name: "Prof. Kondo Hloindo ADJALAH",
+    role: "Directeur-Général",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQFoQnyekBlwfQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516336082281?e=1747872000&v=beta&t=3cnsseXrkbrdGdc8pr4k3OFQxsmTv4X-ta-5Mo-UXnY"
+  },  
+  {
+    name: "Prof. Adekunlé Akim SALAMI",
+    role: "Directeur-Adjoint en charges des Études",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop"
   },
   {
-    name: "Dr. Ayité SENAH",
-    role: "Directeur des Études",
-    image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=100&h=100&fit=crop"
+    name: "Dr. Tchamye Boroze",
+    role: "Directeur Adjoint chargé de la Coopération, des Relations Entreprises et de la Vie Etudiante",
+    image: "https://media.licdn.com/dms/image/v2/C4D03AQG9XoQmyv2iag/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1552659006380?e=1747872000&v=beta&t=ZAkDkP2_83NDZMcgHI8JKsrTn3Q3V7RYlWQzxicUIfQ"
   }
 ];
 
@@ -65,7 +70,7 @@ export const Footer = () => {
               <a href="https://facebook.com" className="hover:text-blue-400">
                 <Facebook size={24} />
               </a>
-              <a href="https://linkedin.com" className="hover:text-blue-400">
+              <a href="https://www.linkedin.com/company/%C3%A9cole-polytechnique-de-lom%C3%A9-ul/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3Bq9NyVg5eRr2DmW707rLeUw%3D%3D" className="hover:text-blue-400">
                 <Linkedin size={24} />
               </a>
               <a href="https://twitter.com" className="hover:text-blue-400">
